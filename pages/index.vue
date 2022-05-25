@@ -6,13 +6,13 @@
         <div class="fsBox bg-secondary" />
         <div class="fsBox bg-tertiary" />
       </div>
-      <h1 class="ml-[270px]">holding patter...</h1>
+      <h1 class="ml-[270px]">holding pattern...</h1>
     </div>
 
     <div class="grid justify-items-center content-center h-1/2">
       <div>
         <h2>
-          email us if you want<br />get in touch<br />
+          email us if you want to<br />get in touch<br />
           <a href="mailto:info@fredst.com">info@fredst.com</a>
         </h2>
       </div>
