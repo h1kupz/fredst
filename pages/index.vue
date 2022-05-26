@@ -19,26 +19,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  data() {},
-  head() {
-    return {
-      title: this.title,
-      meta: [
-        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        {
-          hid: "Fred St.",
-          name: "Fred St.",
-          content:
-            "Fred St offers a fresh and exciting landscape architectural design alternative for  businesses operating in the Urban Development and Infrastructure sectors across Australia and who might be seeking a more personalized, creative and cost effective landscape architectural design service.",
-        },
-      ],
-      link: [
-        { rel: "icon", type: "image/x-icon", href: "~/assets/favicon.ico" },
-      ],
-    };
-  },
-};
-</script>

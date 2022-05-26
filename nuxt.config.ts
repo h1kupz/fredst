@@ -15,6 +15,11 @@ export default defineNuxtConfig({
       css: [
         "~/assets/css/tailwind.css"
       ],
+      pwa: {
+        icon: {
+          filename: 'favicon.png?v1'
+        }
+      },
       head: {
         title: 'Fres St.',
         meta: [
@@ -26,6 +31,6 @@ export default defineNuxtConfig({
             content: 'Fred St offers a fresh and exciting landscape architectural design alternative for  businesses operating in the Urban Development and Infrastructure sectors across Australia and who might be seeking a more personalized, creative and cost effective landscape architectural design service.'
           }
         ],
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '~/assets/favicon.ico' }]
+        link: [{ rel: 'icon', type: 'image/png', href: "/favicon.png" }]
       },
 })
