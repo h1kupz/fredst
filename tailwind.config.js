@@ -19,13 +19,13 @@ module.exports = {
       },
     },
     animation: {
-      "pulse-1": "pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-      "pulse-2": "pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-      "pulse-3": "pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      "pulse-1": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      "pulse-2": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      "pulse-3": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animation-delay")],
 };

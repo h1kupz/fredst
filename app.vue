@@ -8,6 +8,7 @@
 export default {
   head() {
     return {
+      title: "Fred St.",
       link: [
         {
           rel: "icon",
