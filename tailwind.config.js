@@ -18,6 +18,11 @@ module.exports = {
         serif: ["Znikomit", "serif"],
       },
     },
+    animation: {
+      "pulse-3": "pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      "pulse-2": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      "pulse-1": "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+    },
   },
   variants: {
     extend: {},

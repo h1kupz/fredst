@@ -2,11 +2,11 @@
   <div class="h-screen w-screen">
     <div class="grid justify-items-center content-end m-auto h-1/2">
       <div class="flex">
-        <div class="fsBox bg-primary" />
-        <div class="fsBox bg-secondary" />
-        <div class="fsBox bg-tertiary" />
+        <div class="fsBox bg-primary animate-pulse-1" />
+        <div class="fsBox bg-secondary animate-pulse-2" />
+        <div class="fsBox bg-tertiary animate-pulse-3" />
       </div>
-      <h1 class="ml-[270px]">holding pattern...</h1>
+      <h1 class="ml-[285px]">holding pattern...</h1>
     </div>
 
     <div class="grid justify-items-center content-center h-1/2">
