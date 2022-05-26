@@ -5,16 +5,29 @@ export default defineNuxtConfig({
     title: "Fred St.",
   },
 
-  head: {
-    link: [
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "32x32",
-        href: "favicon.png",
-      },
-    ],
-  },
+  head: [
+    {
+      link: [
+        {
+          hid: "icon",
+          rel: "icon",
+          type: "image/png",
+          sizes: "32x32",
+          href: "favicon.png",
+        },
+      ],
+    },
+  ],
+
+  link: [
+    {
+      hid: "icon",
+      rel: "icon",
+      type: "image/x-icon",
+      sizes: "32x32",
+      href: "/favicon.png",
+    },
+  ],
   css: ["@/assets/css/tailwind.css"],
 
   build: {
