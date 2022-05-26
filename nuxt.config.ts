@@ -31,6 +31,6 @@ export default defineNuxtConfig({
             content: 'Fred St offers a fresh and exciting landscape architectural design alternative for  businesses operating in the Urban Development and Infrastructure sectors across Australia and who might be seeking a more personalized, creative and cost effective landscape architectural design service.'
           }
         ],
-        link: [{ rel: 'icon', type: 'image/png', href: "/favicon.png" }]
+        link: [{ rel: 'icon', type: 'image/png', href: "../assets/favicon.png" }]
       },
 })
