@@ -1,10 +1,10 @@
 <template>
   <div class="h-screen w-screen">
     <div class="grid justify-items-center content-end m-auto h-1/2">
-      <div class="flex">
-        <div class="fsBox bg-primary animate-pulse-1 animation-delay-1200" />
-        <div class="fsBox bg-secondary animate-pulse-2 animation-delay-600" />
-        <div class="fsBox bg-tertiary animate-pulse-3" />
+      <div class="flex saving">
+        <span class="fsBox bg-primary" />
+        <span class="fsBox bg-secondary" />
+        <span class="fsBox bg-tertiary" />
       </div>
       <h1 class="ml-[285px]">holding pattern...</h1>
     </div>
@@ -19,3 +19,32 @@
     </div>
   </div>
 </template>
+
+<style>
+@keyframes blink {
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.saving span {
+  animation-name: blink;
+  animation-duration: 2.4s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+.saving span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.saving span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+</style>
