@@ -6,7 +6,7 @@
         <span class="fsBox bg-secondary" />
         <span class="fsBox bg-tertiary" />
       </div>
-      <h1 class="ml-[285px]">holding pattern...</h1>
+      <h1 class="ml-[285px] sm:ml-0">holding pattern...</h1>
     </div>
 
     <div class="grid justify-items-center content-center h-1/2">
